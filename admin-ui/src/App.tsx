@@ -27,6 +27,7 @@ import { ProductEdit } from "./product/ProductEdit";
 import { ProductShow } from "./product/ProductShow";
 import { httpAuthProvider } from "./auth-provider/ra-auth-http";
 
+
 const App = (): React.ReactElement => {
   const [dataProvider, setDataProvider] = useState<DataProvider | null>(null);
   useEffect(() => {
